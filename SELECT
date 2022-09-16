@@ -1,0 +1,13 @@
+  SELECT Clients.ClientId, ClientName, Email, Age FROM Clients WHERE Age = 24
+  SELECT * FROM Clients WHERE ClientName LIKE 'Ar%'
+  SELECT * FROM Clients WHERE ClientName LIKE '%a%'
+  SELECT Count(Age) as AgeCount FROM Clients WHERE Age = 24
+  SELECT SUM(Age) as SumAge FROM Clients
+  SELECT Avg(Age) as AvgAge FROM Clients
+  SELECT MAX(Age) FROM Clients
+  SELECT Min(Age) as MinAge FROM Clients
+  SELECT Age, Count(Age) FROM Clients GROUP BY Age
+  SELECT * FROM Clients ORDER BY Age DESC
+  SELECT * FROM Clients ORDER BY Age 
+  SELECT * FROM Clients JOIN Rooms on Clients.ClientId = Rooms.RoomId
+  SELECT * FROM Hotels JOIN Rooms on Hotels.HotelId = Rooms.HotelIdy
