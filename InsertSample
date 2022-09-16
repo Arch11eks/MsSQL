@@ -1,0 +1,5 @@
+  INSERT INTO Hotels (HotelName, StarsCount, CreationYear, Adress) VALUES
+  ('Edilwill', 3, 1996, 'Hermana street 88')
+   INSERT INTO Hotels(HotelName, StarsCount, CreationYear, Adress) VALUES
+  ('Bukovina', '5', '2010','Molovna str. 100'),
+  ('Marion', 5, 2020, 'Bukovel')
